@@ -167,6 +167,8 @@ While traveling through this strange, new world together, you and your soulmate 
 
 ## Storyboarding
 ![Stack Pack Story Board](/stackpack-storyboard.png "Story Board")
+
+Example of a Potential Harder Level:
 ![Stack Pack Harder Level](/StackPack-Mockup.png "Harder Level")
 
 # Assets Needed
