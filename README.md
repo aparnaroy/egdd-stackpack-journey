@@ -166,7 +166,7 @@ Text shown on the main game screen explains the objective and interaction instru
 While traveling through this strange, new world together, you and your soulmate suddenly get separated. You must finish traveling throughout the world solo, collecting objects and completing obstacles to reconnect with your lost soulmate. 
 
 ## Storyboarding
-
+![Stack Pack Story Board](/stackpack-storyboard.png "Story Board")
 ![Stack Pack Harder Level](/StackPack-Mockup.png "Harder Level")
 
 # Assets Needed
