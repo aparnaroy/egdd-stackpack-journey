@@ -1,137 +1,169 @@
-# Game Name
+# StackPack Journey
 
 ## Elevator Pitch
 
-*A one sentence pitch for your game. Pretend that your were pitching your game to a executive going to the elevator. You have less than 60 Seconds. Check [this resource](http://www.gameacademy.com/perfecting-indie-games-elevator-pitch/) for more information.*
+StackPack Journey is a game that aims to teach students about the stack; the premise is that you have lost your soulmate and your goal is to use your StackPack (a backpack that works like a stack) to navigate through the world by picking up objects to overcome various obstacles to reunite with your soulmate.
 
 ## Influences (Brief)
 
-- *Influence #1*:
-  - Medium: *(Television, Games, Literature, Movies, etc.)*
-  - Explanation: *In one paragraph or less, explain why this is an influence.*
-- *Influence #2*:
-  - Medium: *(Television, Games, Literature, Movies, etc.)*
-  - Explanation: *In one paragraph or less, explain why this is an influence.*
-- *Influence #3*:
-  - Medium: *(Television, Games, Literature, Movies, etc.)*
-  - Explanation: *In one paragraph or less, explain why this is an influence.*
+- Super Mario Bros.:
+  - Medium: Game
+  - Explanation: In Super Mario Bros., when you go through the levels, you see a map view of the world with the different levels and checkpoints. The player goes through this map while completing the levels to reach the end objective. Our game will have a similar map view of the different levels. Each level in Super Mario Bros. also has a different theme focusing on a different part of the world. There are levels with lava, levels that take place in the sky, etc. Our game will have similar themes to that.
+
+- Farafalla:
+  - Medium: Game
+  - Explanation: In this game, players need to reach the end of a level, but there are different colored barriers preventing them from just walking through. Matching colored balloons are scattered throughout the map, and once you collect a certain color, you can pass through that boundary. Needing specific items to pass obstacles in a level was the inspiration we took from this game. 
+
+- Love You to Bits:
+  - Medium: Game
+  - Explanation: In this mobile game, you are a space explorer looking for the pieces of your robot girlfriend that have gotten spread throughout outer space. The game has a cute, sci-fi aesthetic with visual backgrounds and a tiny main character in this huge world. Our game is taking inspiration from that, as our character will be tiny going through this world trying to find their soulmate by unlocking doors and traveling through the world. 
 
 ## Core Gameplay Mechanics (Brief)
-
-*Give a very high-level description of any core gameplay mechanics*
-
-- *Gameplay Mechanic #1*
-- *Gameplay Mechanic #2*
-- *Gameplay Mechanic #3*
-- *Gameplay Mechanic #4*
+- Brief walkthrough tutorial to demonstrate how to play (Level 0)
+- Push objects into the stack using ‘E’ on the keyboard
+- Pop objects off of the stack using ‘F’ on the keyboard 
+- Player moves around the world using arrow keys 
+- When you obtain the key and use it on the door, you advance to the next level
+- After you complete all of the levels, it displays a (victory) scene of finding your soulmate.
 
 # Learning Aspects
 
 ## Learning Domains
 
-*Briefly list any and all of the disciplines and learning domains for this subject.*
+- Introduction to Data Structures (specifically the stack)
 
 ## Target Audiences
 
-*Who are your learners?*
+- Our learners are students who are taking a data structures course where stacks are a topic of discussion.
+- For those who enjoy adventure/puzzle games
 
 ## Target Contexts
 
-*Describe what kinds of formal and informal learning contexts this will be used in (e.g., courses, k-12 computer labs during free time).*
+- This would be assigned as an additional (optional) resource to help students grasp the idea of a stack and how it works in a course formally teaching about stacks.
+- This game would not be appropriate as a classroom activity since it will have many levels and, therefore, will take a long time to complete.
 
 ## Learning Objectives
 
-*Remember, Learning Objectives are NOT simply topics. They are statements of observable behavior that a learner can do after the learning experience. You cannot observe someone "understanding" or "knowing" something.*
-
-- *Short Name*: *Formal Learning Objective #1*
-- *Short Name*: *Formal Learning Objective #2*
-- *Short Name*: *Formal Learning Objective #3*
+- LIFO: By the end of the game, students will be able to explain the concept of LIFO (Last in first out) 
+- Push/Pop: By the end of the game, students will be able to define the terms “push” and “pop.”
+- Visual Representation: By the end of the game, students will be able to illustrate a visual representation of a stack and the process of pushing/popping from that stack.
 
 ## Prerequisite Knowledge
 
-*What do they need to know prior to trying this game?*
-
-- *Prerequisite Learning Objective #1*
-- *Prerequisite Learning Objective #2*
+- Prior to the game, players need to be able to follow simple instructions.
+- Prior to the game, players need to be able to define the concept of a stack.
+- Prior to the game, players need to be able to explain what pushing and popping from a stack looks like.
 
 ## Assessment Measures
 
-*Describe how the learning will be assessed, e.g., pre/post multiple-choice test, or SAT, or some other instrument.*
+We can give a short pre-test and post-test to assess how much the student has learned from playing the game.
 
-*If proposing a new instrument, briefly and concisely list some example assessment questions.*
+- Given a stack and a list of push and pop operations that are to be performed on the stack, draw how the stack will look after running those operations.
+
 
 # What sets this project apart?
 
-*Give some reasons why this game is not like every other game out there. Whether the learning objective is unique, the gameplay mechanics are new, or what. You should persuade the reader that your game is novel and worthy of development. Consider arguments that would be persuasive to a Venture Capitalist, Teacher, or Researcher. These might be focused on learning needs, too.*
+- Most introductory computer science games focus on teaching how to code with code blocks, etc; however, this game focuses on teaching an important data structure that many beginner computer science students struggle with. 
+- The aesthetics of this game will appeal to the users and make them want to continue playing/learning.
+- Most introductory computer science games also lack a storyline, which makes it unappealing for students to play. This game has a unique and interesting storyline that will compel students to keep playing and learning. 
+- The real-time visualization of the stack as the user plays will drive home the point of how pushing and popping works to the user.
 
-- *Reason #1*
-- *Reason #2*
-- *Reason #3*
-- *Reason #4*
-- *etc.*
 
 # Player Interaction Patterns and Modes
 
 ## Player Interaction Pattern
 
-*Describe how people play your game, how many players are involved at once, how they interact with the system works, etc.*
+- This is a one player game using the keyboard to play, including arrow keys and a few other specified buttons.
 
 ## Player Modes
 
-*Your game has one or more player modes. Describe each discrete mode, considering things like menus too. Generally describe the transitions between modes too.*
-
-- *Player mode #1*: *Description*
-- *Player mode #2*: *Description*
-- *etc.*
+- Single player: One player will advance through multiple levels where there will be more items than the previous one. 
 
 # Gameplay Objectives
 
-- *Primary Objective #1*:
-    - Description: *Description*
-    - Alignment: *Describe how this aligns with one or more learning objectives*
-- *Primary Objective #2*:
-    - Description: *Description*
-    - Alignment: *Describe how this aligns with one or more learning objectives*
-- *etc.*
+- Get past an obstacle in a level.
+    - Description: When a player has the correct item at the top of their stack and they use it on an obstacle (ex. A boat in the stack and they use it on a lake) they will be able to get past that obstacle (cross the lake). 
+    - Alignment: Doing this successfully shows effective planning, since that item needs to be at the top of the stack to use it. 
+
+- Successfully complete a level.
+    - Description: When the player successfully gets to the end door and unlocks it with the key, they have completed the level.
+    - Alignment: Completing a level shows understanding with the LIFO and Push/Pop concepts, since those are required to use the items in their correct order. 
+
+- Find your Soulmate
+    - Description: Completing all the levels will lead you to your soulmate, who you lost at the beginning of the game. 
+    - Alignment: Since each level has more items than the last, getting past all levels shows a true deep understanding of how a stack works. 
 
 # Procedures/Actions
 
-*Describe the control scheme and what actions a user can take in the game.*
+- You can press ‘E’ when you’re near an item to pick it up and put it into your stack-pack. 
+- You can press ‘F’ when you’re near a place where you can use an item to use the item there and overcome the obstacle / open the door.
+- You can move the main character around with the arrow keys.
 
 # Rules
 
-*What resources are available to the player that they make use of?  How does this affect gameplay? How are these resources finite?*
+- If the player tries to use an object in an area that is not permitted, the player will not be able to do so.
+- If the player uses the correct object in the right area, the player will be able to advance through the level.
+- If the player obtains the key and uses it on the door, the player will advance to the next level.
+- Over time, the level of difficulty will increase and evolve to incorporate the following:
+	- Increased stack size
+	- Increased number of objects needed to push and pop
+	- More planning needed to complete the levels as the number of obstacles increases
 
 # Objects/Entities
 
-*What other things are in the world that you need to design? These may or may not directly translate to actual objects and classes.*
+In a Level:
+- There will be a main character that the player can control
+- There will be a visible stack that shows your current “inventory” of items in the stack
+- There will be platforms across the screen that the player can walk across
+- There will be objects players can collect 
+- There will be a prompt that pops up when the player gets close enough to an object, letting them know they can pick it up
+- There will be obstacles throughout the level
+- There will be a prompt that pops up when the player gets close enough to an object, letting them know they can use it on that obstacle
+- There will be instructions on the first couple scenes of the game
+
+On Map (showing all levels):
+- There will be a spot for each level in the game, with completed levels marked with a green flag, incomplete/inaccessible levels grayed out, and the current level marked with the main character standing on top of it.
+
 
 ## Core Gameplay Mechanics (Detailed)
 
-- *Core Gameplay Mechanic #1*: *Describe in 2 paragraphs or less, along with how it generally works*
-- *Core Gameplay Mechanic #2*: *Describe in 2 paragraphs or less, along with how it generally works*
-- *Core Gameplay Mechanic #3*: *Describe in 2 paragraphs or less, along with how it generally works*
+- “Level 0”: Players will have to complete Level 0 - a short introductory walkthrough that demonstrates the basic mechanics of the game. It will force players to pick objects up and push or pop them off the stack. It will also force players to make incorrect choices to show what not to do.
+
+- “Pushing”: (aka. Collecting items) Players will be able to push objects to their stack using the letter ‘E’ when standing over an object. When that prompt is shown and E is pressed, the object will visually appear in the player’s stack-pack. 
+
+- “Popping”: (aka. Using items) Players will be able to pop objects from their stack using the letter ‘F’ when standing over an obstacle to use the objects throughout the levels. When that prompt is shown and the valid object is at the top of the stack, the action is performed (Ex. unlocking the door at the end of the level if the key is at the top of the stack). 
+
+- “Movement”: Players will be able to move around the 2D world using all four arrow keys. Left moves left, right moves right, and up and down will be used to fly/climb/descend things like ladders. 
+
+- “Next Level”: Players will be able to advance to the next level only if they use the key on the door. The door will swing open and players will go through the door. 
+
+- “All Levels Complete”: When the player completes all of the levels, a victory cutscene will display showing the player finally reconnecting with their soulmate. 
 
     
 ## Feedback
 
-*Explicitly describe what visual/audio/animation indicators there are that give players feedback on their progress towards their gameplay objectives (and ideally the learning objectives).*
+- When you try to use an object in an area where it’s not supposed to be used, the area will flash red indicating that you can’t do that with a sound effect.
+- When you correctly use an object to overcome an area’s obstacle, the area will visibly change (animations) to show the object being used and appropriate sound effects will play based on what the item is.
+- When you complete a level by using the correct key on the door, the door will swing open, confetti will shower down, and text will show up saying you did it. A victory sound effect will also play. 
+- When you complete a level, the next level will “unlock” in the game map (it will not be grayed out anymore and the main character will be shown on top of the new current level). Also, the level you just completed will have a green flag over it showing that you finished it.
+- When you win the game by finishing the last level and getting to your soulmate, a big victory message will appear and you will see an animation showing the main character reunite with the soulmate, and sound effects will also play accompanying it.
 
-*Describe what longer-term feedback you detect and give that guides the player in their learning and lets them know how they are doing in regards to the learning objectives.*
 
 # Story and Gameplay
 
 ## Presentation of Rules
 
-*Briefly describe how the player will learn the gameplay mechanics. Avoid using walls of text, since people will not read them. Think instead of natural ways of teaching mechanics iteratively and slowly.*
+Text shown on the main game screen explains the objective and interaction instructions. Also, Level 0 will interactively show how the game works and how to control the character.
 
 ## Presentation of Content
 
-*Briefly describe how the player will be taught the core material they are meant to learn. Avoid using walls of text, since people will not read them. Think instead of natural ways of teaching material iteratively and slowly.*
+- There will be a “Level 0” which will be a walkthrough of the gameplay and core mechanics. The player controls movement, and small boxes show up to guide the player into making the right choices.
+    - Ex: “-> to walk left”; “walk over this key”; “e to push key onto stack”; “walk over the door”; “e to pop key and unlock door”
+    - Covers core mechanics movement, pushing, and popping 
 
 ## Story (Brief)
 
-*The Summary or TL;DR version of below*
+While traveling through this strange, new world together, you and your soulmate suddenly get separated. You must finish traveling throughout the world solo, collecting objects and completing obstacles to reconnect with your lost soulmate. 
 
 ## Storyboarding
 
@@ -139,40 +171,40 @@
 
 # Assets Needed
 
-## Aethestics
+## Aesthetics
 
-*Give a sense of the aesthetics of your game, the spirit and atmosphere. Use descriptive, evocative words that can help the reader understand the emotional response of your game.*
+- The aesthetics of this game will be cartoonish/cutsey for a stress-free environment. Players should not feel pressure when playing the game, but rather relaxed. 
 
 ## Graphical
 
 - Characters List
-  - *Characters 1*
-  - *Characters 2*
-  - *...*
-- Textures:
-  - *Texture 1*
-  - *Texture 2*
-  - *...*
-- Environment Art/Textures:
-  - *Environment Texture 1*
-  - *Environment Texture 2*
-  - *...*
+  - Main player: A female non-scary (cute) creature, with animations for movement
+  - The soulmate: A non-scary (cute) creature
+  - Note: Might add bad-guy NPC characters to later levels 
 
+- Textures: N/A
+
+- Environment Art/Textures:
+  - Level 0 Background: Basic grassy background
+  - Level 1 Background: Forest-y background with trees and sun
+  - Level 2 Background: Cloud background, up in the air 
+  - Level 3 Background: Lava/Volcano background
+  - Note: Aiming for 3 really good levels, after that is if we have time
+  - Victory Scene: Cutesy background 
 
 ## Audio
-
-
-*Game region/phase/time are ways of designating a particularly important place in the game.*
-
 - Music List (Ambient sound)
-  - *Game region/phase/time*: *Example 1*, *Example 2*
-  - *Game region/phase/time*: *Example 3*, *Example 4*
+  - Level 0: Basic pleasant gameplay music that you normally hear in the background of tutorials
+  - Level 1: Leaves rustling, wind, forest-vibe music
+  - Level 2: Dreamy, idyllic music as you are in a cloud dreamworld
+  - Level 3: Intense, fast-paced music, since this is the final level
+  - Victory Scene: Dramatic, upbeat, congratulatory music as you just found your soulmate
   
-*Game Interactions are things that trigger SFX, like character movement, hitting a spiky enemy, collecting a coin.*
-
 - Sound List (SFX)
-  - *Game Interaction*: *Example 1*, *Example 2*
-  - *Game Interaction*: *Example 3*, *Example 4*
+  - Jumping
+  - Door Unlock (door swinging sound)
+  - Using objects/items (different for each object)
+  - Hitting an enemy (the enemy’s response to getting hit)
 
 
 # Metadata
