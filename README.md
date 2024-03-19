@@ -167,7 +167,7 @@ While traveling through this strange, new world together, you and your soulmate 
 
 ## Storyboarding
 
-*Go into as much detail as needs be to visually convey the Dynamics of your game. Be detailed. Create storyboards and freeze frame images that concisely capture important key elements of your game. You are strongly recommended to sketch pictures on paper and embed them here. Be sure make it clear how previously-described mechanics come through in the dynamics.*
+![Stack Pack Harder Level](/StackPack-Mockup.png "Harder Level")
 
 # Assets Needed
 
